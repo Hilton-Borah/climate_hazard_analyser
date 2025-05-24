@@ -86,7 +86,7 @@ app = FastAPI(
 # CORS middleware configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173","https://imaginative-crisp-6907f4.netlify.app","https://imaginative-crisp-6907f4.netlify.app"],  # Frontend URL
+    allow_origins=["http://localhost:5173","https://imaginative-crisp-6907f4.netlify.app","https://cliemate-hazard-analyzer.netlify.app"],  # Frontend URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
